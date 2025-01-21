@@ -13,10 +13,6 @@ export class ProductDetailPage extends BasePage {
     cartItemQuantity: "table tbody tr[id*='cart-item'] .qty .quantity",
   };
 
-  private Text = {
-    quantity: (value: string) => `Quantity: ${value}`,
-  };
-
   /**
    * Verify if we are at Product Detail page with correct product name shown
    */
@@ -43,6 +39,10 @@ export class ProductDetailPage extends BasePage {
     await this.waitForLoadState();
   }
 
+  /**
+   * Click to select the size
+   * @param size : the size
+   */
   public async selectSize(size: string) {
     await this.waitAndClickByRole("button", size, true);
   }

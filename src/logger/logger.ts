@@ -1,5 +1,5 @@
 import * as winston from "winston";
-import { transports, format } from "winston";
+import { format } from "winston";
 import dotenv from "dotenv";
 import DailyRotateFile from "winston-daily-rotate-file";
 
