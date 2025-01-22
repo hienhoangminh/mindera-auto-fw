@@ -1,4 +1,4 @@
-Mindera - Code challenge
+
 
 ### Setup:
 
