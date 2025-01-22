@@ -1,4 +1,4 @@
-# Sellerwix
+# Mindera - Code challenge
 
 ### Setup:
 
