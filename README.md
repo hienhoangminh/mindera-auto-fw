@@ -1,4 +1,4 @@
-# Sellerwix
+# Mindera - Code challenge
 
 ### Setup:
 
@@ -29,7 +29,7 @@
 ![Screen Shot 2025-01-21 at 16 19 37](https://github.com/user-attachments/assets/ea127dd2-21e4-461f-b17f-216464d62a8f)
 
 - Product with only 1 size: Wallets. It is better to verify in product list page that for each product cart, we have text One size but I don't have enough of times to do that.
-- Product with multiple size: any wearable item. Here I choose Wallets. Again, it is better to verify in product list page that for each product cart, we have text X, S, M, L, etc... but I don't have enough of times to do that.
+- Product with multiple size: any wearable item. Here I choose Bra. Again, it is better to verify in product list page that for each product cart, we have text X, S, M, L, etc... but I don't have enough of times to do that.
 - I tried to verify the quantity shown in the popup after clicking on the Add to bag button, but my code is not working as expected; so I perform verification step in Checkout page.
 - Title of the page changes accordingly with the option user clicks, so I verified if we are in correct page by checking its title.
 
