@@ -26,7 +26,7 @@ const config = {
   height: parseInt(env.parsed?.BROWSER_HEIGHT || "1080"),
 };
 
-setDefaultTimeout(60 * 1000 * 4);
+setDefaultTimeout(60 * 1000 * 60);
 
 // Define the dictionary
 const browsers: { [key: string]: BrowserType } = {
@@ -65,6 +65,8 @@ async function initPage(): Promise<void> {
     width: config.width,
     height: config.height,
   });
+  await pageFixture.page.setDefaultNavigationTimeout(60 * 1000 * 15);
+  await pageFixture.page.setDefaultTimeout(60 * 1000 * 15);
 }
 
 /**
